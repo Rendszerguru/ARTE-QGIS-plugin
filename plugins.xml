@@ -14,6 +14,5 @@
     <experimental>false</experimental>
     <deprecated>false</deprecated>
     <tracker>https://github.com/Rendszerguru/ARTE-QGIS-plugin/issues</tracker>
-    <tags>arma,reforger,terrain,exporter</tags>
   </pyqgis_plugin>
 </plugins>
