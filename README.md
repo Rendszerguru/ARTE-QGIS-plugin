@@ -7,6 +7,8 @@
 
 **ARTE** is an advanced QGIS plugin designed specifically for Arma Reforger terrain creators. It provides a seamless workflow to extract high-resolution Google Satellite imagery, fetch digital elevation models (DEM), apply terrain engineering, and automatically generate the necessary import parameters for the Enfusion Engine.
 
+<img width="751" height="768" alt="arte" src="https://github.com/user-attachments/assets/d270fdb4-6b5d-4630-a473-c4f5f08c0f96" />
+
 ## ✨ Key Features
 * **Interactive Map Selection:** Visually draw, move, and resize your terrain boundaries directly on the QGIS map canvas with aspect-ratio locking.
 * **Multiple Elevation Sources:** AWS Terrarium (Free 30m), Mapbox Terrain-RGB, and OpenTopography datasets (LiDAR, COP30, AW3D30, EU_DTM).
