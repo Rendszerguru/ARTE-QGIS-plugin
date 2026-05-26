@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="ARTE - Arma Reforger Terrain Exporter" version="1.0.0">
+  <pyqgis_plugin name="ARTE - Arma Reforger Terrain Exporter" version="1.0.1">
     <description>Advanced QGIS terrain exporter for Arma Reforger (Enfusion Engine).</description>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <homepage>https://github.com/Rendszerguru/ARTE-QGIS-plugin</homepage>
     <file_name>ARTE-QGIS-plugin.zip</file_name>
