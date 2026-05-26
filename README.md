@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest)
 [![QGIS](https://img.shields.io/badge/QGIS-3.x-green.svg)](https://qgis.org/)
 [![Engine](https://img.shields.io/badge/Engine-Enfusion%20(Arma%20Reforger)-orange.svg)](https://reforger.armaplatform.com/)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#license)
+[![License](https://img.shields.io/badge/license-Free-lightgrey.svg)](#-license)
 
 **ARTE** is an advanced QGIS plugin designed specifically for Arma Reforger terrain creators. It provides a seamless workflow to extract high-resolution Google Satellite imagery, fetch digital elevation models (DEM), apply terrain engineering, and automatically generate the necessary import parameters for the Enfusion Engine.
 
