@@ -27,6 +27,8 @@
 4. Set resolutions, select your Elevation Data Source, and click **OK**.
 5. Open `enfusion_import.txt` and copy the calculated scale values directly into your Arma Reforger World Editor!
 
+---
+
 ### 📄 **License**
 This project is licensed under the MIT License - free to use, modify, and distribute.
 
