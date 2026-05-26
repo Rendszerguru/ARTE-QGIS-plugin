@@ -6,7 +6,7 @@
     <version>1.0.0</version>
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
-    <author_name>Rendszerguru</author_name>
+    <author_name>Icebird</author_name>
     <homepage>https://github.com/Rendszerguru/ARTE-QGIS-plugin</homepage>
     <repository>https://github.com/Rendszerguru/ARTE-QGIS-plugin</repository>
     <file_name>ARTE-QGIS-plugin.zip</file_name>
