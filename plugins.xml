@@ -7,6 +7,6 @@
     <homepage>https://github.com/Rendszerguru/ARTE-QGIS-plugin</homepage>
     <file_name>ARTE-QGIS-plugin.zip</file_name>
     <author_name>Rendszerguru</author_name>
-    <download_url>https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest/download/ARTE-QGIS-plugin.zip</download_url>
-  </pyqgis_plugin>
+    <download_url>https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/download/v1.0.1/ARTE-QGIS-plugin.zip</download_url>
+    </pyqgis_plugin>
 </plugins>
