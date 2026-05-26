@@ -1,6 +1,6 @@
 # ARTE - Arma Reforger Terrain Exporter (QGIS Plugin)
 
-[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest)
 [![QGIS](https://img.shields.io/badge/QGIS-3.x-green.svg)](https://qgis.org/)
 [![Engine](https://img.shields.io/badge/Engine-Enfusion%20(Arma%20Reforger)-orange.svg)](https://reforger.armaplatform.com/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#license)
