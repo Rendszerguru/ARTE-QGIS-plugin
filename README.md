@@ -28,7 +28,7 @@
 5. Open `enfusion_import.txt` and copy the calculated scale values directly into your Arma Reforger World Editor!
 
 ## 📄 License
-This project is licensed under the MIT License - free to use, modify, and distribute.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🧑‍💻 **Author**
-**Icebird** Copyright © 2026. All rights reserved.
+## 🧑‍💻 Author
+Created by **Icebird** - Copyright (c) 2026.
