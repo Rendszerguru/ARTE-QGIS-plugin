@@ -11,7 +11,7 @@
 
 ## ✨ Key Features
 * **Interactive Map Selection:** Visually draw, move, and resize your terrain boundaries directly on the QGIS map canvas with aspect-ratio locking.
-* **Multiple Elevation Sources:** AWS Terrarium (Free 30m), Mapbox Terrain-RGB, and OpenTopography datasets (LiDAR, COP30, AW3D30, EU_DTM).
+* * **Multiple Elevation Sources:** AWS Terrarium (Free 30m), Mapbox Terrain-RGB, and OpenTopography datasets (LiDAR, COP30, AW3D30, EU_DTM). **OpenTopography COP30 is highly recommended as the most optimal option.**
 * **OSM Terrain Engineering:** Automatically flattens heightmaps under roads/railways and smooths riverbeds using real-time OpenStreetMap data.
 * **Enfusion-Ready Export:** Automatically calculates the exact `Grid cell size` and `Height scale` parameters required for the Arma Reforger Workbench.
 * **Flexible Formats:** Export heightmaps as 16-bit PNG, Esri ASCII Grid (.asc), or raw Float32 GeoTIFF.
