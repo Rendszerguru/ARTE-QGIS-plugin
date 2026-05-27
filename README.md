@@ -12,9 +12,9 @@
 ## ✨ Key Features
 * **Interactive Map Selection:** Visually draw, move, and resize your terrain boundaries directly on the QGIS map canvas with aspect-ratio locking.
 * **Multiple Elevation Sources:**
-    * **AWS Terrarium:** (30m global resolution) **no API key required**.
-    * **Mapbox Terrain-RGB:** for high-fidelity global elevation data **Requires Mapbox API key**.
-    * **OpenTopography Datasets:** to access premium LiDAR, COP30, AW3D30, and EU_DTM data. **Requires OpenTopography API key** *OpenTopography COP30 is highly recommended as the most optimal option.*
+    * **AWS Terrarium:** 30m global resolution database, **no API key required**.
+    * **Mapbox Terrain-RGB:** Ideal for high-fidelity global elevation data, **requires Mapbox API key**.
+    * **OpenTopography Datasets:** Gives access to premium LiDAR, COP30, AW3D30, and EU_DTM data, **requires OpenTopography API key**. *OpenTopography COP30 is highly recommended as the most optimal option.*
     * *Note: Both Mapbox and OpenTopography require a free API key to access their servers. You can easily generate your personal tokens by creating a free account on their official websites and pasting them directly into the plugin interface.*
 * **OSM Terrain Engineering:** Automatically flattens heightmaps under roads/railways and smooths riverbeds using real-time OpenStreetMap data.
 * **Enfusion-Ready Export:** Automatically calculates the exact `Grid cell size` and `Height scale` parameters required for the Arma Reforger Workbench.
