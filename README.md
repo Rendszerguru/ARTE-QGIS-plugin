@@ -31,6 +31,10 @@ When enabled, the plugin automatically sculpts raw DEM data using live OpenStree
 * **Built-in Flood Protection:** Dynamically audits shoreline roads and rails, enforcing a safety margin above water levels to prevent flooding and bank collapses.
 * **Visual Audit Logs:** Outputs a real-time `engineer_debug_[timestamp].txt` log and a `heightmap_diff_[timestamp].tif` difference map for easy quality control.
 
+### 📊 Terrain Engineering Comparison
+![Terrain Engineering Comparison](<img width="5120" height="2980" alt="final_combined_reference" src="https://github.com/user-attachments/assets/93152eba-9bb0-40a6-87fb-57f6740777dd" />
+)
+
 ## 🚀 Installation
 1. Download `ARTE-QGIS-plugin.zip` from [Releases](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest).
 2. Open QGIS and navigate to **Plugins** -> **Manage and Install Plugins...**
