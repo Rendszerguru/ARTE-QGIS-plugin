@@ -21,15 +21,15 @@
 * **Flexible Formats:** Export heightmaps as 16-bit PNG, Esri ASCII Grid (.asc), or raw Float32 GeoTIFF.
 
 ## 🛠️ OSM Terrain Engineering
-When enabled, the plugin automatically sculpts raw DEM data using live OpenStreetMap vectors to make the landscape instantly ready for the Enfusion engine:
+When enabled, the plugin uses OpenStreetMap vector data to guide terrain modification of raw DEM data for Enfusion workflow preparation:
 
-* **Smart OSM Filtering:** Live data fetching (via 3 fallback servers) with automatic filtering for roads, rails, and waters—intelligently bypassing bridges and tunnels.
-* **Dynamic Road & Lane Widths:** Automatically parses OSM tags for explicit road widths and lane counts to generate highly accurate transit footprints.
-* **Pixel-Aware Embankments:** Slope transitions (falloff) dynamically scale based on your grid's pixel size, preventing jagged artifacts or unnatural vertical walls.
-* **Dual-Mask Water Carving:** Water polygons use a core interior mask combined with an automated outer safety buffer to completely submerge raster edges under smooth Enfusion vector splines.
-* **Natural Riverbeds:** Automatically smooths riverbeds to the local terrain slope, corrects for directional flow gradients, and carves an organic depression (-0.7m).
-* **Built-in Flood Protection:** Dynamically audits shoreline roads and rails, enforcing a safety margin above water levels to prevent flooding and bank collapses.
-* **Visual Audit Logs:** Outputs a real-time `engineer_debug_[timestamp].txt` log and a `heightmap_diff_[timestamp].tif` difference map for easy quality control.
+* **Smart OSM Filtering:** Fetches data from Overpass API (with fallback endpoints) and filters roads, rails, and water features, excluding bridges and tunnels.
+* **Dynamic Road & Lane Widths:** Parses OSM tags (where available) such as width and lanes to estimate corridor widths for buffering and rasterization.
+* **Pixel-Aware Embankments:** Uses buffer scaling and distance-based falloff that adapts to raster resolution (pixel size) to avoid overly sharp or blocky transitions.
+* **Dual-Mask Water Processing:** Combines water line and polygon data into raster masks and applies smoothing and morphological cleanup to improve coastline continuity and reduce artifacts.
+* **Riverbed Shaping:** Modifies terrain under water features using DEM-derived slope information combined with smoothing and distance falloff, applying a simplified depth offset for game-ready river profiles rather than true hydrological modeling.
+* **Built-in Flood Protection:** Ensures roads and railways are not lowered below nearby water levels by applying elevation constraints during terrain modification.
+* **Visual Audit Logs:** Outputs a real-time `engineer_debug_[timestamp].txt` log and a `heightmap_diff_[timestamp].tif` file showing terrain modifications for debugging and QA.
 
 ### 📊 Terrain Engineering Comparison
 ![Terrain Engineering Comparison](https://github.com/user-attachments/assets/93152eba-9bb0-40a6-87fb-57f6740777dd)
