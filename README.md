@@ -20,15 +20,16 @@
 * **Enfusion-Ready Export:** Automatically calculates the exact `Grid cell size` and `Height scale` parameters required for the Arma Reforger Workbench.
 * **Flexible Formats:** Export heightmaps as 16-bit PNG, Esri ASCII Grid (.asc), or raw Float32 GeoTIFF.
 
-## 🛠️ Deep Dive: OSM Terrain Engineering
-When enabled, the plugin automatically sculpts raw DEM data using live OpenStreetMap vectors to ensure the landscape is instantly ready for the Enfusion engine:
+## 🛠️ OSM Terrain Engineering
+When enabled, the plugin automatically sculpts raw DEM data using live OpenStreetMap vectors to make the landscape instantly ready for the Enfusion engine:
 
-* **Overpass Server Fallback:** Fetches live road, rail, and water data from OpenStreetMap, automatically switching between 3 fallback servers for zero downtime.
-* **Infrastructure Filtering:** Isolates main highways, secondary roads, tracks, railways, and rivers, while intelligently bypassing bridges and tunnels to prevent terrain clipping.
-* **Dynamic Width Buffers:** Generates exact vector masks scaled to your target pixel size (e.g., Heavy Roads: 12m, Rails: 8m, Medium Roads: 6.5m).
-* **Cross-Flat Smoothing:** Uses Euclidean Distance Transforms (EDT) and multi-pass Gaussian Blurs to create perfectly flat, realistic embankments under infrastructure, avoiding sharp, stepped artifacts.
-* **Waterway Carving:** Smooths riverbeds to the local terrain slope and carves a natural gradient depression (-0.7m) with soft falloff margins.
-* **Visual Audit Logs:** Outputs a real-time `engineer_debug_[timestamp].txt` log and a `heightmap_diff_[timestamp].tif` difference map so you can visually audit every terrain modification.
+* **Smart OSM Filtering:** Live data fetching (via 3 fallback servers) with automatic filtering for roads, rails, and waters—intelligently bypassing bridges and tunnels.
+* **Dynamic Road & Lane Widths:** Automatically parses OSM tags for explicit road widths and lane counts to generate highly accurate transit footprints.
+* **Pixel-Aware Embankments:** Slope transitions (falloff) dynamically scale based on your grid's pixel size, preventing jagged artifacts or unnatural vertical walls.
+* **Dual-Mask Water Carving:** Water polygons use a core interior mask combined with an automated outer safety buffer to completely submerge raster edges under smooth Enfusion vector splines.
+* **Natural Riverbeds:** Automatically smooths riverbeds to the local terrain slope, corrects for directional flow gradients, and carves an organic depression (-0.7m).
+* **Built-in Flood Protection:** Dynamically audits shoreline roads and rails, enforcing a safety margin above water levels to prevent flooding and bank collapses.
+* **Visual Audit Logs:** Outputs a real-time `engineer_debug_[timestamp].txt` log and a `heightmap_diff_[timestamp].tif` difference map for easy quality control.
 
 ## 🚀 Installation
 1. Download `ARTE-QGIS-plugin.zip` from [Releases](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest).
