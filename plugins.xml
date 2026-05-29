@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <pyqgis_plugin name="ARTE - Arma Reforger Terrain Exporter" version="1.0.0">
+  <pyqgis_plugin name="ARTE - Arma Reforger Terrain Exporter" version="1.0.1">
     <description>Advanced QGIS terrain exporter for Arma Reforger (Enfusion Engine).</description>
     <about>Export Google Satellite imagery and heightmaps for Arma Reforger.</about>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
     <author_name>Icebird</author_name>
