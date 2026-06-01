@@ -1,6 +1,6 @@
 # ARTE - Arma Reforger Terrain Exporter (QGIS Plugin)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/Rendszerguru/ARTE-QGIS-plugin/releases/latest)
 [![QGIS](https://img.shields.io/badge/QGIS-3.x-green.svg)](https://qgis.org/)
 [![Engine](https://img.shields.io/badge/Engine-Enfusion%20(Arma%20Reforger)-orange.svg)](https://reforger.armaplatform.com/)
 [![License](https://img.shields.io/badge/license-Free-lightgrey.svg)](#-license)
@@ -11,7 +11,8 @@
 
 ## ✨ Key Features
 * **Interactive Map Selection:** Visually draw, move, and resize your terrain boundaries directly on the QGIS map canvas with aspect-ratio locking.
-* **Multiple Elevation Sources:**
+* **Flexible & Expandable Elevation Sources:**
+    * **Custom Source Manager (New ✨):** Add, edit, and remove your own terrain data sources and custom download links directly through the plugin interface.
     * **AWS Terrarium:** 30m global resolution database, **no API key required**.
     * **Mapbox Terrain-RGB:** Ideal for high-fidelity global elevation data, **requires Mapbox API key**.
     * **OpenTopography Datasets:** Gives access to premium LiDAR, COP30, AW3D30, and EU_DTM data, **requires OpenTopography API key**. *OpenTopography COP30 is highly recommended as the most optimal option.*
@@ -44,8 +45,9 @@ When enabled, the plugin uses OpenStreetMap vector data to guide terrain modific
 1. Click the **ARTE icon** in the toolbar or find it under the `Arma Tools (ARTE)` menu.
 2. Click **1. Load Satellite Preview** to center the map.
 3. Click **2. Select Extent on Map**, drag the red bounding box, and press `ENTER` or `Right-Click` when finished.
-4. Set resolutions, select your Elevation Data Source, and click **OK**.
-5. Open `enfusion_import.txt` and copy the calculated scale values directly into your Arma Reforger World Editor!
+4. *(Optional)* Use the **Source Manager** to set up custom terrain data providers.
+5. Set resolutions, select your Elevation Data Source, and click **OK**.
+6. Open `enfusion_import.txt` and copy the calculated scale values directly into your Arma Reforger World Editor!
 
 ---
 
